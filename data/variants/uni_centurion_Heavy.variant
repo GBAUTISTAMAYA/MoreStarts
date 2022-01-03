@@ -1,0 +1,38 @@
+{
+    "displayName": "Heavy",
+    "fluxCapacitors": 0,
+    "fluxVents": 6,
+    "goalVariant": false,
+    "hullId": "centurion",
+    "hullMods": [
+		"hardened_subsystems",
+		"heavyarmor",
+		"reinforcedhull"],
+    "permaMods": [],
+    "variantId": "uni_centurion_Heavy",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS 003": "swarmer"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightdualac",
+                "WS 002": "lightdualac",
+                "WS 004": "lightag",
+                "WS 005": "vulcan"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "vulcan",
+                "WS 007": "vulcan"
+            }
+        }
+    ]
+}

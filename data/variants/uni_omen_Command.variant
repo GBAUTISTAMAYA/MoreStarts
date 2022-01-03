@@ -1,0 +1,27 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 6,
+    "fluxVents": 10,
+    "goalVariant": false,
+    "hullId": "omen_overseer",
+    "hullMods": [
+		"hardened_subsystems",
+        "reinforcedhull",
+		"fluxbreakers"],
+    "permaMods": [],
+    "quality": 1,
+    "variantId": "uni_omen_Command",
+    "weaponGroups": [
+        {
+		"autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "amblaster"}
+		},
+		{
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS 003": "reaper"}
+        },
+    ]
+}

@@ -1,0 +1,172 @@
+id,trigger,conditions,script,text,options,notes
+ngcMoreStartOptions,AddNewGameChoices,,"SetTooltip ngcMoreStart ""Who are you? A survivor? Someone of Enterprise? Only you can tell...""",,"350:ngcMoreStart:None of these options describe me. (Start options added by the More Starts mod)",
+ngcMoreStartOptionsPicked,NewGameOptionSelected,"$option == ngcMoreStart","FireAll NewGameMoreStartOptions",,,
+ngcSmallStealthStart,NewGameMoreStartOptions,,"SetTooltip ngcSmallStealth ""The capable but logistically strained singleton fleet consisting of a Shade class phase frigate.\n\nYour fleet will spawn in Corvus""",,"1:ngcSmallStealth:An Independent phase recon scout thought to have been destroyed",
+ngcSmallStealthPicked,NewGameOptionSelected,"$option == ngcSmallStealth","NGCAddShip uni_shade_Assault
+$ngcSmallStealthSelected = true
+NGCAddCredits 30000
+NGCSetDifficulty normal
+AddTextSmall ""Reputation with Independents established"" good
+SetTextHighlights ""Independents""
+AddTextSmall ""Reputation with lawful factions improved"" good
+SetTextHighlights ""lawful factions""
+AddTextSmall ""Reputation with unruly factions ruined"" bad
+SetTextHighlights ""unruly factions""
+NGCSetStartingLocation Corvus -2500 3000
+NGCIPhaseStartScript
+FireAll ngcUniSecondShipOptions
+",,"0:ngcSmallStealthContinue:Continue",
+ngcSmallStealthContinue,NewGameOptionSelected,"$option == ngcSmallStealthContinue","$ngcSkipTutorial = true
+NGCAddCharacterPoints 3
+NGCAddStandardStartingScript
+NGCDone",,,
+ngcOmenStart,NewGameMoreStartOptions,,"SetTooltip ngcOmen ""This advanced Omen class frigate features an operations center, a strong shield emitter, and the unique emp system capable of crippling hulls many times its size.\n\nYour fleet will spawn in Corvus""",,"0:ngcOmen:An aspiring pioneer equiped with an advanced command frigate",
+ngcOmenPicked,NewGameOptionSelected,"$option == ngcOmen","NGCAddShip uni_omen_Command
+$ngcOmenSelected = true
+NGCSetDifficulty normal
+NGCSetStartingLocation Corvus -2500 3000
+FireAll ngcUniThirdShipOptions",,,
+ngcUniPickSecondShip,ngcUniSecondShipOptions,,"SetTooltip ngcOverlord ""The Auspice-class was formerly an Omen but now a ship retrofitted with a hanger which is only capable of launching non-crewed drone wings.""
+SetTooltip ngcShuttle ""Adds three Hermes (D)-class shuttles to your fleet. \n\nThough not regarded as the go-to in times of battle, the Hermes possesses three small ballistic weapon slots which are oftenly fitted defensively. \n\nWhile the Hermes is not as classy, its speed ensures that it has a chance of survival if forced to flee; however, it would be wise to cover one's self when coming to dock to protect against the snicker and chatter of ports...""
+SetTooltip ngcKiteS ""Adds a Kite (S)-class shuttle to your fleet.\n\nWith an evasive speed and a paintjob reminiscent of the Domain days, the Kite (S) may not be the logistical option, but one driven by nostalgia.""
+SetTooltip ngcBuffalo ""Adds a Buffalo-class freighter to your fleet.\n\nSporting a spaceous shielded cargo hold, the Buffalo is a reliable workhorse of trade fleets throughout the Sector. \n\nUnfortunately, all things have a price, and the Buffalo's is survivability. In combat, the Buffalo is at the mercy of the enemy fleet as its slow speed and low overall structual integrity compromise its survivability.""
+SetTooltip ngcDram ""Adds a Dram-class tanker to your fleet.\n\nA generous fuel store and somewhat effective speed, the Dram will see use in any fleet that extends its reach beyond a star system, thus enabling a small fleet to have capability spanning from one side of the sector to the other.""","In addition, your fleet includes...","0:ngcOverlord:The Auspice-class frigate capable of carrying drones
+1:ngcShuttle:A 'respectable' fleet of Hermes-class shuttles
+2:ngcKiteS:An unarmed, but nimble Kite (S)-class shuttle
+3:ngcBuffalo:A more spaceous and vulnerable Buffalo-class freighter
+4:ngcDram:A fuel capacity focused Dram-class tanker",
+ngcOverlordPicked,NewGameOptionSelected,"$option == ngcOverlord","NGCAddShip uni_omen_Drone",,"0:ngcOmenContinue:Continue",
+ngcShuttlePicked,NewGameOptionSelected,"$option == ngcShuttle","NGCAddShip hermes_d_Standard
+NGCAddShip hermes_d_Standard
+NGCAddShip hermes_d_Standard",,"0:ngcOmenContinue:Continue",
+ngcKiteSPicked,NewGameOptionSelected,"$option == ngcKiteS","NGCAddShip kite_original_Stock",,"0:ngcOmenContinue:Continue",
+ngcBuffaloPicked,NewGameOptionSelected,"$option == ngcBuffalo","NGCAddShip buffalo_pirates_Standard",,"0:ngcOmenContinue:Continue",
+ngcDramPicked,NewGameOptionSelected,"$option == ngcDram","NGCAddShip dram_Light",,"0:ngcOmenContinue:Continue",
+ngcUniPickThirdShip,ngcUniThirdShipOptions,,"SetTooltip ngcAuspice ""Adds two Overlord-class frigates to your fleet, but is now overhauled with a versatile flight decks, at the cost of two weapon mounts.""
+SetTooltip ngcKites ""The Kite-class is a light and nimble ship with limited armament.\n\nNot capable of doing much damage itself, it is however capable of being a persistent distraction, especially in the hands of an officer with the right set of defensive skills.""
+SetTooltip ngcShepherd ""The Shepherd is not a combat ship, being both slow and fragile, although its drones are capable of providing decent support to another ship.\n\nIts true value, however, lies in a generous cargo hold and numerous salvaging-and-surveying-oriented hull features.\n\nIts cargo of heavy machinery is also useful in running salvage and surveying operations.""
+SetTooltip ngcCenturion ""A solid heavy combat frigate, the Centurion can be counted upon to fill and hold gaps in the line of battle.\n\nThe Centurion is valued for its versatility due to an abundance of hybrid weapon slots and an integrated Damper Field that allows it to shrug off the fearsome firepower it is sure to face in combat.""
+SetTooltip ngcMonitor ""An oddity among ships, the Monitor is the result of the line of thought that sometimes the best defense is indeed the best defense. Features turret mounts angled to provide wide arcs and a unique flux shunt modification to its power systems specially constructed to relieve flux generated by shields. Indeed, the Monitor makes up for a lack of maneuverability and firepower with the ability to withstand prolonged bombardment from enemy ordnance.""
+","And what good is a command without subordinates?","0:ngcAuspice:A pair of Overlord-class frigates
+1:ngcKites:A pair of militarized Kite-class shuttles
+2:ngcCenturion:A steadfast Centurion-class heavy frigate
+3:ngcMonitor:A defensible Monitor-class frigate
+",
+ngcAuspicePicked,NewGameOptionSelected,"$option == ngcAuspice","NGCAddShip uni_omen_Carrier
+AddTextSmall ""Acquired level 1 officer"" good
+SetTextHighlights ""level 1 officer""
+$ngcAddOfficer = true
+NGCAddShip uni_omen_Carrier
+AddTextSmall ""Acquired level 1 officer"" good
+SetTextHighlights ""level 1 officer""
+$ngcAddOfficer = true
+FireAll ngcUniSecondShipOptions",,,
+ngcKitesPicked,NewGameOptionSelected,"$option == ngcKites","NGCAddShip uni_kite_Interceptor
+AddTextSmall ""Acquired level 1 officer"" good
+SetTextHighlights ""level 1 officer""
+$ngcAddOfficer = true
+NGCAddShip uni_kite_Interceptor
+AddTextSmall ""Acquired level 1 officer"" good
+SetTextHighlights ""level 1 officer""
+$ngcAddOfficer = true
+FireAll ngcUniSecondShipOptions",,,
+ngcCenturionPicked,NewGameOptionSelected,"$option == ngcCenturion","NGCAddShip uni_centurion_Heavy
+AddTextSmall ""Acquired level 1 officer"" good
+SetTextHighlights ""level 1 officer""
+$ngcAddOfficer = true
+FireAll ngcUniSecondShipOptions",,,
+ngcMonitorPicked,NewGameOptionSelected,"$option == ngcMonitor","NGCAddShip uni_monitor_Attack
+AddTextSmall ""Acquired level 1 officer"" good
+SetTextHighlights ""level 1 officer""
+$ngcAddOfficer = true
+FireAll ngcUniSecondShipOptions",,,
+ngcOmenContinue,NewGameOptionSelected,"$option == ngcOmenContinue
+","$ngcSkipTutorial = true
+NGCAddCharacterPoints 3
+NGCAddStandardStartingScript
+NGCDone",,,
+ngcExStart,NewGameMoreStartOptions,,"SetTooltip ngcEx ""A rather evasive but classy one-ship fleet consisting of a Kite class frigate. Defenseless, this executive may not wield immediate power but has more than enough capital and connections in Tri-Tachyon to build up a fleet.\n\nYour fleet will spawn in Hybrasil""","Your journey begins as...","2:ngcEx:A grounder Tri-Tachyon executive with the ambition to leave their mark on the stars (fast start)",
+ngcExPicked,NewGameOptionSelected,"$option == ngcEx
+","$ngcExSelected = true
+NGCAddShip kite_original_Stock
+NGCAddCredits 218000
+AddTextSmall ""Reputation with Tri-Tachyon established"" good
+SetTextHighlights ""Tri-Tachyon""
+AddTextSmall ""Reputation with the corporate-minded improved"" good
+SetTextHighlights ""corporate-minded""
+AddTextSmall ""Reputation with competitors worsensed"" bad
+SetTextHighlights ""competitors""
+NGCSetStartingLocation Hybrasil -2500 -3000
+NGCTExecStartScript",,"0:ngcExContinue:Continue",
+ngcExContinue,NewGameOptionSelected,"$option == ngcExContinue
+","NGCAddCharacterPoints 3
+NGCAddStandardStartingScript
+$ngcSkipTutorial = true
+NGCDone",,,
+ngcRenegadeStarts,NewGameMoreStartOptions,,"SetTooltip ngcRenegade ""Start options for Pirates and Luddic Path.""
+",,"100:ngcRenegade:Do I look like I follow the 'rules'?",
+ngcRenegadeStartsPicked,NewGameOptionSelected,"$option == ngcRenegade","FireAll RenegadeStarts",,,
+ngcLPLasher,RenegadeStarts,,"SetTooltip ngcLPLasher ""Equipped with Safety Overrides, this Lasher (LP)-class frigate packs more than enough punch to take on the blind followers of technology. Rest assured, your service to the Luddic Path will make your family back on Gilead proud.\n\nYour fleet will spawn in Canaan""",,"0:ngcLPLasher:An officer, groomed by the Luddic Path, piloting a Lasher (very hard)",
+ngcLPLasherPicked,NewGameOptionSelected,"$option == ngcLPLasher","NGCAddShip uni_lasher_pather
+$ngcLPLasherSelected = true
+NGCAddCredits 30000
+NGCSetDifficulty normal
+AddTextSmall ""Reputation with Luddic Path established"" good
+SetTextHighlights ""Luddic Path""
+AddTextSmall ""Reputation with luddic factions improved"" good
+SetTextHighlights ""luddic factions""
+AddTextSmall ""Reputation with heretic factions ruined"" bad
+SetTextHighlights ""heretic factions""
+NGCSetStartingLocation Canaan 4500 -2000
+NGCLPLasherStartScript
+FireAll ngcUniSecondShipOptions",,,
+ngcLPBrawler,RenegadeStarts,,"SetTooltip ngcLPBrawler ""With the speed and armament of the nifty Brawler (LP)-class frigate, trade fleets should be wary of your presence.\n\nYour fleet will spawn in Kumari Kandam""",,"1:ngcLPBrawler:An interdicting Pather  force consisting of a fearsome Brawler (very hard)",
+ngcLPBrawlerPicked,NewGameOptionSelected,"$option == LPBrawler","NGCAddShip uni_brawler_pather
+$ngcLPBrawlerSelected = true
+NGCAddCredits 30000
+NGCSetDifficulty normal
+AddTextSmall ""Reputation with Luddic Path established"" good
+SetTextHighlights ""Luddic Path""
+AddTextSmall ""Reputation with luddic factions improved"" good
+SetTextHighlights ""luddic factions""
+AddTextSmall ""Reputation with heretic factions ruined"" bad
+SetTextHighlights ""heretic factions""
+NGCSetStartingLocation KumariKandam 100 -3000
+NGCLPLasherStartScript
+FireAll ngcUniSecondShipOptions",,,
+ngcPWolf,RenegadeStarts,,"SetTooltip ngcPWolf ""With a Wolf (P)-class as a flagship and your distaste of using your transponder, your fleet possesses the capability of pillaging passing fleets on their way to Nova Maxios and Tibicena.\n\nYour fleet will spawn in Magec""",,"2:ngcPWolf:A lone Wolf fleet (very hard)",
+ngcPWolfPicked,NewGameOptionSelected,"$option == ngcPWolf","NGCAddShip uni_wolf_d_pirates_Elite
+$ngcPWolfSelected = true
+NGCAddCredits 30000
+NGCSetDifficulty normal
+AddTextSmall ""Reputation with Pirates established"" good
+SetTextHighlights ""Pirates""
+AddTextSmall ""Reputation with the weak ruined"" bad
+SetTextHighlights ""weak""
+NGCSetStartingLocation Magec 250 4500
+NGCPWolfStartScript
+FireAll ngcUniSecondShipOptions",,,
+ngcPCarrier,RenegadeStarts,,"SetTooltip ngcPCarrier ""A pirate horde consisting of Kite(P)-class shuttles, escorting three Condor-class carriers, patroling around Qaras. With carrier capacity and plenty of cargo space, this start is for those who want a fleet they can grow into.\n\nYour fleet will spawn in Yma""",,"3:ngcPCarrier:A Pirate brigand leading a carrier action group (hard and fast)",
+ngcPCarrierPicked,NewGameOptionSelected,"$option == ngcPCarrier","NGCAddShip uni_kite_pirates_Raider
+NGCAddShip uni_kite_pirates_Raider
+NGCAddShip uni_kite_pirates_Raider
+NGCAddShip uni_kite_pirates_Raider
+NGCAddShip uni_kite_pirates_Raider
+NGCAddShip uni_condor_Support
+NGCAddShip uni_condor_Strike
+NGCAddShip uni_condor_Strike
+$ngcPCarrierSelected = true
+NGCAddCredits 30000
+NGCSetDifficulty normal
+AddTextSmall ""Reputation with Pirates established"" good
+SetTextHighlights ""Pirates""
+AddTextSmall ""Reputation with the weak ruined"" bad
+SetTextHighlights ""weak""
+NGCSetStartingLocation Yma -7000 -10000
+NGCPCarrierStartScript
+FireAll ngcUniSecondShipOptions",,,
+ngcMoreStartSubCancel,RenegadeStarts,,,,"101:ngcMoreStartSubCancel:None of these, take me back to the More Starts menu.",
+ngcMoreStartSubCancelled,NewGameOptionSelected,"$option == ngcMoreStartSubCancel","FireAll NewGameMoreStartOptions",,,
+ngcMoreStartsNewGameCancel,NewGameMoreStartOptions,,,,"101:ngcMoreStartsNewGameCancel:None of these options, take me back to the regular start menu",
+ngcMoreStartsNewGameCancelled,NewGameOptionSelected,"$option == ngcMoreStartsNewGameCancel","FireAll AddNewGameChoices",,,
+

@@ -1,0 +1,275 @@
+{
+  "bounds": [
+    -111,
+    -5,
+    -101.5,
+    -24.5,
+    -77,
+    -30,
+    0.5,
+    -30,
+    52.5,
+    -23.5,
+    112,
+    -3,
+    112,
+    3,
+    52.5,
+    23.5,
+    0.5,
+    30,
+    -77,
+    30,
+    -101.5,
+    24.5,
+    -111,
+    5
+  ],
+  "builtInMods": [
+    "uni_vls"
+  ],
+  "builtInWeapons": {
+    "WS0010": "uni_buk_cover_back",
+    "WS0012": "uni_buk_cover_front"
+  },
+  "builtInWings": [
+    "wasp_wing",
+  ],
+  "center": [
+    40,
+    117.5
+  ],
+  "collisionRadius": 166.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 5,
+      "length": 20,
+      "location": [
+        -79,
+        28
+      ],
+      "style": "LOW_TECH",
+      "width": 5
+    },
+    {
+      "angle": -180,
+      "contrailSize": 5,
+      "length": 20,
+      "location": [
+        -79,
+        -28
+      ],
+      "style": "LOW_TECH",
+      "width": 5
+    },
+    {
+      "angle": 180,
+      "contrailSize": 5,
+      "length": 20,
+      "location": [
+        -102,
+        22.5
+      ],
+      "style": "LOW_TECH",
+      "width": 5
+    },
+    {
+      "angle": -180,
+      "contrailSize": 5,
+      "length": 20,
+      "location": [
+        -102,
+        -22.5
+      ],
+      "style": "LOW_TECH",
+      "width": 5
+    },
+    {
+      "angle": 180,
+      "contrailSize": 5,
+      "length": 25,
+      "location": [
+        -103,
+        18.5
+      ],
+      "style": "LOW_TECH",
+      "width": 5
+    },
+    {
+      "angle": -180,
+      "contrailSize": 5,
+      "length": 25,
+      "location": [
+        -103,
+        -18.5
+      ],
+      "style": "LOW_TECH",
+      "width": 5
+    },
+    {
+      "angle": 180,
+      "contrailSize": 14,
+      "length": 20,
+      "location": [
+        -112,
+        -0
+      ],
+      "style": "LOW_TECH",
+      "width": 14
+    }
+  ],
+  "height": 235,
+  "hullId": "uni_buk",
+  "hullName": "Buk",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    -2,
+    -0
+  ],
+  "shieldRadius": 140,
+  "spriteName": "graphics/ships/bukdestroyer.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 250,
+      "id": "WS0001",
+      "locations": [
+        85,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 270,
+      "id": "WS0002",
+      "locations": [
+        26.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 180,
+      "arc": 270,
+      "id": "WS0003",
+      "locations": [
+        -26.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 180,
+      "arc": 270,
+      "id": "WS0004",
+      "locations": [
+        -85.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 180,
+      "arc": 250,
+      "id": "WS0006",
+      "locations": [
+        -49.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 180,
+      "arc": 250,
+      "id": "WS0007",
+      "locations": [
+        -62.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 250,
+      "id": "WS0005",
+      "locations": [
+        53.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0010",
+      "locations": [
+        -56,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0012",
+      "locations": [
+        53,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        40.5,
+        0.5,
+        39,
+        -5.5,
+        39,
+        5.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 2",
+      "locations": [
+        -77,
+        -11.5,
+        -77.5,
+        11.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    }
+  ],
+  "width": 80
+}

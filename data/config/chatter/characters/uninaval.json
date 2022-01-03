@@ -1,0 +1,94 @@
+{
+	"name":"Uni Combat",
+	"personalities":["cautious", "steady", "aggressive"],
+	"gender":["m","f","n"],
+	"chance":1,
+	"talkativeness":1,
+	"categoryTags":["default"],
+	
+	"lines":{
+		"start":[
+			{"text":"This is Conn, Battlestations all."},
+			{"text":"Ahead, Standard Speed."},
+			{"text":"Ahead, Full Speed."},
+			{"text":"Reactor, Combat Power."},
+			{"text":"Conn, Helm, Steady Course."}
+		],
+		"start_boss":[
+			{"text":"Conn, Sensory, designate Sierra Prime as Capital Ship."},
+			{"text":"Conn, Radar, designate Romeo Prime as Capital Ship."}
+		],
+		"retreat":[
+			{"text":"Conn, Helm, setting tactical retreat route."},
+			{"text":"Conn, Helm, plotting retreat path."}
+		],
+		"out_of_missiles":[
+			{"text":"Conn, Missile Room, Out of Ammo."},
+			{"text":"Conn, Munitions, Winchester."}
+		],
+
+		"engaged":[
+			{"text":"Conn, Fire Control, we've got 'em locked up."},
+			{"text":"Conn, Fire Control, engaging."},
+			{"text":"Admiral, we are engaging."},
+			{"text":"Admiral, we've been engaged."}
+		],
+
+		"need_help":[
+			{"text":"Admiral, requesting assistance."},
+			{"text":"Admiral, we've sustained casualties."},
+		],
+
+		"pursuing":[
+			{"text":"Ahead, Flank Speed."},
+			{"text":"Conn, Fire Control, targeting routing vessals."},
+		],
+
+		"running":[
+			{"text":"Conn, Helm, Ahead Flank Cavitate!"}
+		],
+
+		"hull_90":[
+			{"text":"Damage Control Parties, inspect the bulkheads."},
+			{"text":"Damage Control Parties, lay to the Storage Bay."},
+			{"text":"Damage Control Parties, fire in the observation bay."},
+			{"text":"Damage Control Parties, perforations detected starboard side."},
+			{"text":"Damage Control Parties, seal the following blast doors..."},
+			{"text":"Medical Teams, treat injured in the following compartments..."}
+		],
+
+		"hull_50":[
+			{"text":"Damage Control Parties, lay to the Crew Quarters."},
+			{"text":"Damage Control Parties, lay to Sensory."},
+			{"text":"Damage Control Parties, ruptures detected in the following compartments..."},
+			{"text":"Damage Control Parties, detonation detected below the turret decks."},
+			{"text":"Damage Control Parties, seal all remaining blast doors."},
+			{"text":"Medical Teams, enable triage tags."}
+		],
+
+		"hull_30":[
+			{"text":"Remaining Damage Control Parties, maintain manpower."},
+			{"text":"To all Remaining Medical Teams, abandon treatment efforts, support Damage Control."},
+			{"text":"Damage Control Parties, lay to the Control Room!"},
+			{"text":"Damage Control Parties, lay to the Reactor!"}
+		],
+
+		"overload":[
+			{"text":"Conn, Flux, we're dead in combat space."},
+			{"text":"Conn, Cap, we've been overloaded!."},
+			{"text":"Conn, Fire Control, weapons are frozen!."}
+		],
+
+		"death":[
+			{"text":"Lay to the escape pods!"},
+			{"text":"Abandon ship, report to..."},
+			{"text":"Conn, Master One, Emergency Scuttle the ship!"},
+			{"text":"Admiral, all good things must come to an end..."},
+		],
+		"victory":[
+			{"text":"Mission accomplished. Bravo Zulu."},
+			{"text":"Conn, Bravo Zulu."},
+			{"text":"Hostiles routing, Bravo Zulu."}
+		],
+	}
+}

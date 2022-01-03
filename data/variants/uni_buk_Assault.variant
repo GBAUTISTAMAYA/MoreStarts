@@ -1,0 +1,48 @@
+{
+  "displayName": "Assault",
+  "fluxCapacitors": 7,
+  "fluxVents": 20,
+  "goalVariant": false,
+  "hullId": "uni_buk",
+  "hullMods": [
+    "reinforcedhull",
+    "missleracks"
+  ],
+  "permaMods": [],
+  "quality": 0.8,
+  "variantId": "uni_buk_Assault",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavyac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "harpoon",
+        "WS0006": "sabot",
+        "WS0007": "sabot"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "lightag",
+        "WS0003": "lightag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "vulcan"
+      }
+    }
+  ],
+  "wings": []
+}

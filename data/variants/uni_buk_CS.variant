@@ -1,0 +1,48 @@
+{
+  "displayName": "Close Support",
+  "fluxCapacitors": 5,
+  "fluxVents": 20,
+  "goalVariant": false,
+  "hullId": "uni_buk",
+  "hullMods": [
+    "targetingunit",
+    "reinforcedhull"
+  ],
+  "permaMods": [],
+  "quality": 0.8,
+  "variantId": "uni_buk_CS",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hveldriver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "harpoon",
+        "WS0006": "harpoon",
+        "WS0007": "harpoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "lightdualmg",
+        "WS0003": "lightdualmg"
+      }
+    }
+  ],
+  "wings": []
+}

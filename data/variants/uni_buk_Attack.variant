@@ -1,0 +1,48 @@
+{
+  "displayName": "Attack",
+  "fluxCapacitors": 6,
+  "fluxVents": 20,
+  "goalVariant": false,
+  "hullId": "uni_buk",
+  "hullMods": [
+    "reinforcedhull",
+    "hardened_subsystems"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "uni_buk_Attack",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavyac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "swarmer",
+        "WS0006": "swarmer",
+        "WS0007": "swarmer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "lightdualac",
+        "WS0003": "lightdualac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "pdburst"
+      }
+    }
+  ],
+  "wings": []
+}

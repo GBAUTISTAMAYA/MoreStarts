@@ -1,0 +1,31 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 0,
+    "fluxVents": 10,
+    "goalVariant": false,
+    "hullId": "monitor",
+    "hullMods": [
+	"hardened_subsystems",
+	"reinforcedhull"],
+    "permaMods": [],
+    "quality": 1,
+    "variantId": "uni_monitor_Attack",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "flak",
+                "WS 002": "flak"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "lightdualac",
+                "WS 004": "lightdualac"
+            }
+        }
+    ]
+}

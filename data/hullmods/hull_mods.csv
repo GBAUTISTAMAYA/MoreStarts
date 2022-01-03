@@ -1,0 +1,10 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+CCF Package,uni_ccfs,,,,special,Special,,,TRUE,,0,0,0,0,data.scripts.hullmods.CCFS,"This ship has been overhauled with the Command and Control Frigate Package; Increases the command point recovery rate by %s and extends the ship's peak operating time by %s; Package functions only if it is the flagship.
+","Increases command point recovery rate, peak time, and CR degrades more slowly; when on flagship.",graphics/hullmods/ccfs.png
+Structural Modifications,uni_hubris,,,,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.uni_hubris,"Some time in the past, internal reinforcement and basic plating was removed to make way for added ship capabilities, jepordizing structural integrity. Hull integrity reduced by %s and armor rating reduced by %s.
+",,graphics/hullmods/illadvised.png
+Drone Hanger,uni_cdc,,,,special,Special,,,TRUE,,0,0,0,0,data.scripts.hullmods.uniConvertedDroneHanger,"A single %s has been installed instead. 
+
+While unable to service manned fighters, the hanger is optimized to launch and refit drone wings. Due to the relatively small required hanger space, drone refit time increasd by %s. By being limited to only drones, ship replacement rate decreases %s slower and recovers $s faster.
+",,graphics/hullmods/converted_hangar.png
+Missile Cells,uni_vls,,,,special,Special,,,TRUE,,0,0,0,0,data.scripts.hullmods.uniVLS,"By storing missiles internally in cells, as opposed to being exposed, missile capacity has been increased by %s and missile fire rate increased by %s. As a result of the configuration, the system is %s.",,graphics/hullmods/univls.png

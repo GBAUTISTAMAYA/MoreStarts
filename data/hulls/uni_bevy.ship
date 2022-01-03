@@ -1,0 +1,208 @@
+{
+  "bounds": [
+    51,
+    5,
+    51,
+    -5,
+    29,
+    -15.5,
+    12.5,
+    -17.5,
+    7,
+    -23.5,
+    -15.5,
+    -23.5,
+    -27,
+    -15.5,
+    -56,
+    -12,
+    -56,
+    12,
+    -27,
+    15.5,
+    -15.5,
+    23.5,
+    7,
+    23.5,
+    12.5,
+    17.5,
+    29,
+    15.5
+  ],
+  "builtInWings": [],
+  "center": [
+    35,
+    65
+  ],
+  "collisionRadius": 78.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -56.5,
+        6.5
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -56.5,
+        -6.5
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 12,
+      "location": [
+        -23.5,
+        19
+      ],
+      "style": "LOW_TECH",
+      "width": 6
+    },
+    {
+      "angle": -180,
+      "contrailSize": 6,
+      "length": 12,
+      "location": [
+        -23.5,
+        -19
+      ],
+      "style": "LOW_TECH",
+      "width": 6
+    },
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 18,
+      "location": [
+        -57.5,
+        -0
+      ],
+      "style": "LOW_TECH",
+      "width": 6
+    }
+  ],
+  "height": 126,
+  "hullId": "uni_bevy",
+  "hullName": "Bevy",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    -2,
+    -0
+  ],
+  "shieldRadius": 70,
+  "spriteName": "graphics/ships/randomfrigate.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -90,
+      "arc": 200,
+      "id": "WS0001",
+      "locations": [
+        -6,
+        -15.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "COMPOSITE"
+    },
+    {
+      "angle": 90,
+      "arc": 200,
+      "id": "WS0002",
+      "locations": [
+        -6,
+        15.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "COMPOSITE"
+    },
+    {
+      "angle": 0,
+      "arc": 250,
+      "id": "WS0003",
+      "locations": [
+        12,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 270,
+      "id": "WS0004",
+      "locations": [
+        31,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 180,
+      "arc": 260,
+      "id": "WS0005",
+      "locations": [
+        -29.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0006",
+      "locations": [
+        50.5,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 90,
+      "id": "WS 0007",
+      "locations": [
+        40,
+        70
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        -18.5,
+        12.5,
+        -19,
+        -12
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    }
+  ],
+  "width": 70
+}

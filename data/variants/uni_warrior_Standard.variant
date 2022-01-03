@@ -1,0 +1,46 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 7,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "uni_warrior",
+  "hullMods": [
+    "hardened_subsystems",
+    "reinforcedhull"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "uni_warrior_Standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "heavyac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "harpoon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "lightag",
+        "WS0002": "lightag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "vulcan"
+      }
+    }
+  ],
+  "wings": []
+}

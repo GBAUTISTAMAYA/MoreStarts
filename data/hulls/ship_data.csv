@@ -1,0 +1,10 @@
+name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,hints,tags,rarity,breakProb,minPieces,maxPieces,number
+Overseer,omen_overseer,Frigate,High Tech,emp,6,750,125,2500,2500,200,40,,155,220,175,120,360,100,OMNI,,360,0.3,0.6,,,10,20,30,20,1,20,10,11000,10,20,180,0.25,5,5,,uni_command_bp,,0.5,2,2,0
+Overlord,omen_overlord,Frigate,High Tech,targetingfeed,6,1000,150,2500,2500,200,35,1,150,200,150,100,360,100,OMNI,,360,0.3,0.6,,,15,40,30,25,1,20,10,11000,10,20,180,0.25,5,5,,uni_command_bp,,0.5,2,2,0
+Auspice,omen_auspice,Frigate,High Tech,emp,6,750,125,2500,2500,200,35,1,155,220,175,120,360,100,OMNI,,360,0.3,0.6,,,10,20,30,20,1,20,10,11000,10,20,180,0.25,5,5,,uni_command_bp,,0.5,2,2,0
+Bevy,uni_bevy,Frigate,Midline,ammofeed,6,1400,500,2250,2200,175,55,0,125,180,120,60,120,200,OMNI,,120,0.4,0.8,,,20,50,50,25,1,25,10,20000,8,10,240,0.25,4,4,,uni_line_bp,,0.4,2,2,0
+Buk,uni_buk,Destroyer,Midline,maneuveringjets,10,3500,1000,4000,4000,350,85,1,110,60,40,45,120,400,OMNI,,120,0.4,0.8,,,50,100,125,50,2,25,9,25000,5,12,360,0.25,8,8,,uni_line_bp,,0.5,2,3,0
+Tor,uni_tor,Frigate,Midline,maneuveringjets,7,1600,500,2500,2200,200,35,1,110,180,120,60,120,200,FRONT,,120,0.4,0.8,,,25,50,50,30,1,30,10,22500,8,10,240,0.25,5,5,,uni_line_bp,,0.4,2,2,0
+Garrot,uni_garrot,Destroyer,Midline,targetingfeed,11,3000,750,4000,4000,350,85,4,110,60,40,45,120,300,FRONT,,120,0.4,0.8,,,50,100,125,50,2,25,9,25000,5,12,360,0.25,8,8,,uni_line_bp,,0.5,2,3,0
+Warrior,uni_warrior,Frigate,Midline,damper,6,1750,550,2500,2200,200,55,0,110,180,120,60,120,250,FRONT,,120,0.4,0.8,,,25,150,100,50,1,50,10,22500,8,10,240,0.25,5,5,,uni_line_bp,,0.4,2,2,0
+Support Drone,uni_drone_pd,Drone,High Tech,highenergyfocus,,50,10,100,,50,,,200,250,250,360,400,5,NONE,,,,,,,,,,,,,,,,,,,,,,,,0,,,0

@@ -1,0 +1,24 @@
+{
+    "displayName": "Carrier",
+    "fluxCapacitors": 2,
+    "fluxVents": 10,
+    "goalVariant": false,
+    "hullId": "omen_overlord",
+    "hullMods": [
+		"hardened_subsystems",
+        "reinforcedhull"],
+    "permaMods": [],
+    "quality": 1,
+    "variantId": "uni_omen_Carrier",
+    "weaponGroups": [
+        {
+		"autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "irpulse"}
+		},
+    ],
+    "wings": [
+		"thunder_wing"
+    ]
+}

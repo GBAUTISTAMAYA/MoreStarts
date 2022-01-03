@@ -1,0 +1,43 @@
+{
+  "displayName": "Realistic",
+  "fluxCapacitors": 3,
+  "fluxVents": 20,
+  "goalVariant": false,
+  "hullId": "uni_buk",
+  "hullMods": [
+    "reinforcedhull",
+    "targetingunit",
+    "missleracks"
+  ],
+  "permaMods": [],
+  "quality": 0.8,
+  "variantId": "uni_buk_Realistic",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "arbalest"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "harpoon",
+        "WS0005": "swarmer",
+        "WS0006": "swarmer",
+        "WS0007": "swarmer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "vulcan",
+        "WS0003": "vulcan"
+      }
+    }
+  ],
+  "wings": []
+}

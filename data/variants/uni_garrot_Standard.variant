@@ -1,0 +1,43 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 8,
+  "fluxVents": 20,
+  "goalVariant": true,
+  "hullId": "uni_garrot",
+  "hullMods": [
+    "hardened_subsystems",
+    "targetingunit"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "uni_garrot_Standard",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "railgun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "swarmer",
+        "WS0002": "swarmer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "vulcan",
+        "WS0005": "vulcan"
+      }
+    }
+  ],
+  "wings": [
+    "thunder_wing",
+    "thunder_wing"
+  ]
+}
